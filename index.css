@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background: url('imp.jpg');
+}
+
+.container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+   
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 500px;
+    background: url("imp.jpg");
+    border-radius: 5px;
+  
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* label{
+    font-weight: bold;
+    display:inline-block;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 24px 4px;
+} */
+
+.card-items{
+    font-weight: bold;
+    margin-left: 6rem;
+    
+     
+}
+.card-items input{
+    border: 2px solid black;
+    border-radius: 5px;
+    align-content: center;
+    margin: 1rem;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+/* .card-items label{
+    margin-right: 1rem;
+} */
+.card-items h3{
+    text-align: center;
+    font-size: large;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.card-block{
+    display: block;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    background-color: rgba(14, 114, 228, 0.411);
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius:  4px 24px;
+    align-items: center;
+    width: 200px;
+    margin-top:1rem;
+    
+}
+button:hover{
+    background-color: white;
+}
